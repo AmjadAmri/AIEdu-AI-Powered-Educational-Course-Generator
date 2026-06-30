@@ -175,6 +175,11 @@ The generated course includes:
 
 ## Future Improvements
 
+- Fine-tune an open-source language model for educational content generation tailored to different academic disciplines.
+- Integrate Retrieval-Augmented Generation (RAG) to incorporate trusted educational references into the generation process.
+- Support AI-generated educational diagrams, flowcharts, and visual learning materials.
+- Expand multilingual support to additional languages.
+- Export courses in additional formats such as PDF and Word.
 - Support for additional export formats (PDF, Word).
 - Integration with Learning Management Systems (LMS).
 - AI-generated illustrations and diagrams.
