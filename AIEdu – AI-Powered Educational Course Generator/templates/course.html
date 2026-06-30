@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block header_title %}Course{% endblock %}
+{% block title %}{{ course.payload.course_title }} | Course{% endblock %}
+{% block content %}
+<section class="card">
+  <div class="card-header">
+    <h2>{{ course.payload.course_title }}</h2>
+    <a class="btn" href="{{ url_for('download_pptx', course_id=course.id) }}">Download PPTX</a>
+  </div>
+  <p class="muted">{{ course.payload.course_description }}</p>
+  <div class="pillbar">
+    <span>Level: <strong>{{ course.payload.academic_level }}</strong></span>
+    <span>Language: <strong>{{ course.payload.language }}</strong></span>
+    <span>Duration: <strong>{{ course.payload.duration_minutes }} minutes</strong></span>
+    <span>Chapters: <strong>{{ course.payload.chapters|length }}</strong></span>
+  </div>
+</section>
+
+<section class="card">
+  <h3>Course Outline</h3>
+  <ol class="outline">
+    {% for ch in course.payload.outline %}
+    <li>
+      <strong>{{ ch.chapter_title }}</strong>
+      <ul>
+        {% for t in ch.lessons %}<li>{{ t }}</li>{% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+{% for ch in course.payload.chapters %}
+<section class="card">
+  <div class="card-header">
+    <h3>Chapter {{ loop.index }} — {{ ch.title }}</h3>
+    <a class="btn-outline" href="{{ url_for('quiz', course_id=course.id, chapter_idx=loop.index0) }}">Start Quiz</a>
+  </div>
+  <p>{{ ch.description }}</p>
+
+  {% for ls in ch.lessons %}
+  <details class="lesson">
+    <summary><strong>Lesson:</strong> {{ ls.title }}</summary>
+    <p class="muted">{{ ls.summary }}</p>
+
+    <h4>Learning Objectives</h4>
+    <ul>
+      {% for o in ls.learning_objectives %}<li>{{ o }}</li>{% endfor %}
+    </ul>
+
+    <h4>Lesson Content</h4>
+    <div class="content">
+      {% for para in ls.content.split('\n') %}
+        {% if para.strip() %}<p>{{ para }}</p>{% endif %}
+      {% endfor %}
+    </div>
+  </details>
+  {% endfor %}
+</section>
+{% endfor %}
+{% endblock %}
