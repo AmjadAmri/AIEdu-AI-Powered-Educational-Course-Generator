@@ -1,2 +1,2 @@
-# AI-powered-educational-content-generator
+# AIEdu – AI-Powered Educational Course Generator
 h
