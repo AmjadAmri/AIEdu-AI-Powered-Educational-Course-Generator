@@ -19,24 +19,32 @@ AI-Powered Educational Course Generator is a Flask-based web application that tr
 ## User Interface
 
 ### Home Page
+<img width="1273" height="568" alt="image" src="https://github.com/user-attachments/assets/57c7bf9b-1061-4293-a60a-24eace33b917" />
+
 
 <p align="center">
   <img src="images/home.png" width="800">
 </p>
 
 ### Course Generation
+<img width="1309" height="576" alt="image" src="https://github.com/user-attachments/assets/8bcee6eb-87eb-43b5-ba7c-1ce5c85bb8c9" />
+
 
 <p align="center">
   <img src="images/generation.png" width="800">
 </p>
 
 ### Generated Course
+<img width="1281" height="564" alt="image" src="https://github.com/user-attachments/assets/e2ff88cf-ad26-4625-8f1f-e90ac6c08947" />
+
 
 <p align="center">
   <img src="images/course.png" width="800">
 </p>
 
 ### Quiz Page
+<img width="1271" height="564" alt="image" src="https://github.com/user-attachments/assets/94d18889-cc82-409c-b295-0e15763fdcf1" />
+
 
 <p align="center">
   <img src="images/quiz.png" width="800">
@@ -44,9 +52,6 @@ AI-Powered Educational Course Generator is a Flask-based web application that tr
 
 ### Demo Video
 
-> Add your project demo here:
-
-https://github.com/user-attachments/assets/your-video-link
 
 ---
 
