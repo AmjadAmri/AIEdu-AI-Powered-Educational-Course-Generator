@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" dir="{{ html_dir|default('ltr') }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}AI-powered educational content generator{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="dashboard">
+  <aside class="sidebar">
+    <div class="brand">AI<span>Edu</span></div>
+    <nav class="nav">
+      <a href="{{ url_for('home') }}" class="nav-item {% if request.endpoint == 'home' %}active{% endif %}">Dashboard</a>
+      <a href="{{ url_for('new_course') }}" class="nav-item {% if request.endpoint == 'new_course' %}active{% endif %}">New Course</a>
+    </nav>
+  </aside>
+
+
+    <main class="content container">
+      {% with msgs = get_flashed_messages(with_categories=true) %}
+        {% if msgs %}
+          <div class="flash">
+            {% for cat, m in msgs %}
+              <div class="msg {{ cat }}">{{ m }}</div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endwith %}
+      {% block content %}{% endblock %}
+
+    <footer class="footer">
+      <div class="container"><small>© {{ 2025 }} AI-powered educational content generator MADE BY Amjad Al-Amri</small>
+      </div>
+    </footer>
+    
+   </main>
+
+    
+  </div>
+</div>
+</body>
+</html>
