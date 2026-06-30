@@ -1,4 +1,17 @@
+<p align="center">
+    <img src="images/home.png" width="900">
+</p>
+
 # AIEdu – AI-Powered Educational Course Generator
+
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-Web_App-black?logo=flask)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?logo=openai)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite)
+![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3)
+
+## Overview
 
 AI-Powered Educational Course Generator is a Flask-based web application that transforms a brief user request into a comprehensive educational course. Users specify the subject, academic level, language (Arabic or English), course duration, and number of chapters. The system then generates a structured curriculum, detailed lesson content, learning objectives, and multiple-choice assessments, stores the generated course in a SQLite database, and exports the final course as a downloadable PowerPoint (PPTX) presentation.
 
