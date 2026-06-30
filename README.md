@@ -1,57 +1,71 @@
 <p align="center">
-    <img src="images/home.png" width="900">
+  <img src="https://github.com/user-attachments/assets/3077653c-7035-4c26-b857-a197ac485385" width="170" alt="AIEdu Logo">
 </p>
 
-# AIEdu – AI-Powered Educational Course Generator
+<h1 align="center">
+AIEdu – AI-Powered Educational Course Generator
+</h1>
 
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
-![Flask](https://img.shields.io/badge/Flask-Web_App-black?logo=flask)
-![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?logo=openai)
-![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite)
-![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3)
+<p align="center">
 
-## Overview
+<img src="https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white">
+<img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white">
+<img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white">
 
-AI-Powered Educational Course Generator is a Flask-based web application that transforms a brief user request into a comprehensive educational course. Users specify the subject, academic level, language (Arabic or English), course duration, and number of chapters. The system then generates a structured curriculum, detailed lesson content, learning objectives, and multiple-choice assessments, stores the generated course in a SQLite database, and exports the final course as a downloadable PowerPoint (PPTX) presentation.
+</p>
+
+<p align="center">
+Generate complete educational courses with AI in just a few clicks.
+</p>
 
 ---
-## User Interface
 
-### Home Page
-<img width="1273" height="568" alt="image" src="https://github.com/user-attachments/assets/57c7bf9b-1061-4293-a60a-24eace33b917" />
+# Overview
 
+AIEdu is a Flask-based web application that transforms a brief user request into a comprehensive educational course. Users specify the subject, academic level, language (Arabic or English), course duration, and number of chapters. The system then generates a structured curriculum, detailed lesson content, learning objectives, and AI-generated multiple-choice assessments, stores the generated course in a SQLite database, and exports the final course as a downloadable PowerPoint (PPTX) presentation.
 
-<p align="center">
-  <img src="images/home.png" width="800">
-</p>
+---
 
-### Course Generation
-<img width="1309" height="576" alt="image" src="https://github.com/user-attachments/assets/8bcee6eb-87eb-43b5-ba7c-1ce5c85bb8c9" />
+# User Interface
 
+## Home Page
 
 <p align="center">
-  <img src="images/generation.png" width="800">
+<img src="https://github.com/user-attachments/assets/57c7bf9b-1061-4293-a60a-24eace33b917" width="900">
 </p>
 
-### Generated Course
-<img width="1281" height="564" alt="image" src="https://github.com/user-attachments/assets/e2ff88cf-ad26-4625-8f1f-e90ac6c08947" />
+---
 
+## Course Generation
 
 <p align="center">
-  <img src="images/course.png" width="800">
+<img src="https://github.com/user-attachments/assets/8bcee6eb-87eb-43b5-ba7c-1ce5c85bb8c9" width="900">
 </p>
 
-### Quiz Page
-<img width="1271" height="564" alt="image" src="https://github.com/user-attachments/assets/94d18889-cc82-409c-b295-0e15763fdcf1" />
+---
 
+## Generated Course
 
 <p align="center">
-  <img src="images/quiz.png" width="800">
+<img src="https://github.com/user-attachments/assets/e2ff88cf-ad26-4625-8f1f-e90ac6c08947" width="900">
 </p>
 
-### Demo Video
+---
 
+## Quiz Page
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/94d18889-cc82-409c-b295-0e15763fdcf1" width="900">
+</p>
+
+---
+
+# Demo Video
+
+https://drive.google.com/file/d/1MDHZQtQKaMBqIohZPD2usctRu5s2dEcj/view?usp=sharing
 
 ---
 
