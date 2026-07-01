@@ -29,37 +29,30 @@ AIEdu is a Flask-based web application that transforms a brief user request into
 
 ---
 
-# User Interface
+# User Interfaces
 
-## Home Page
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/57c7bf9b-1061-4293-a60a-24eace33b917" width="900">
-</p>
-
----
-
-## Course Generation
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/8bcee6eb-87eb-43b5-ba7c-1ce5c85bb8c9" width="900">
-</p>
-
----
-
-## Generated Course
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/e2ff88cf-ad26-4625-8f1f-e90ac6c08947" width="900">
-</p>
-
----
-
-## Quiz Page
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/94d18889-cc82-409c-b295-0e15763fdcf1" width="900">
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Home Page</b><br><br>
+      <img src="https://github.com/user-attachments/assets/57c7bf9b-1061-4293-a60a-24eace33b917" width="450">
+    </td>
+    <td align="center">
+      <b>Course Generation</b><br><br>
+      <img src="https://github.com/user-attachments/assets/8bcee6eb-87eb-43b5-ba7c-1ce5c85bb8c9" width="450">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Generated Course</b><br><br>
+      <img src="https://github.com/user-attachments/assets/e2ff88cf-ad26-4625-8f1f-e90ac6c08947" width="450">
+    </td>
+    <td align="center">
+      <b>Quiz Page</b><br><br>
+      <img src="https://github.com/user-attachments/assets/94d18889-cc82-409c-b295-0e15763fdcf1" width="450">
+    </td>
+  </tr>
+</table>
 
 ---
 
