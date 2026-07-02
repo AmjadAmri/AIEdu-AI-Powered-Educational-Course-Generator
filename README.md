@@ -172,7 +172,7 @@ Bachelor's in Artificial Intelligence
 Umm Al-Qura University
 
 ## 🔒 License and Usage
-©️ Copyright (c) 2026 Amjad Alamri.
+©️ Copyright (c) 2025 Amjad Alamri.
 All Rights Reserved.
 
 This repository is private and shared for portfolio review and recruitment evaluation purposes only.  
