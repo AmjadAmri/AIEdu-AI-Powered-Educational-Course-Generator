@@ -170,3 +170,11 @@ The generated course includes:
 **Amjad**  
 Bachelor's in Artificial Intelligence  
 Umm Al-Qura University
+
+## 🔒 License and Usage
+©️ Copyright (c) 2026 Amjad Alamri.
+All Rights Reserved.
+
+This repository is private and shared for portfolio review and recruitment evaluation purposes only.  
+
+No part of this project, including but not limited to source code, documentation, reports, designs, images, videos, diagrams, or generated assets, may be copied, modified, distributed, reused, published, sublicensed, or used for academic, commercial, or personal purposes without prior written permission from the author.
