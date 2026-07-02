@@ -79,30 +79,14 @@ https://drive.google.com/file/d/1MDHZQtQKaMBqIohZPD2usctRu5s2dEcj/view?usp=shari
 
 ## Workflow
 
-```text
-User Input
-     │
-     ▼
-Course Requirements
-     │
-     ▼
-Stage 1
-Generate Course Outline
-     │
-     ▼
-Stage 2
-Generate Lessons
-Learning Objectives
-Quizzes
-     │
-     ▼
-Store Course in SQLite
-     │
-     ▼
-Display Course
-     │
-     ▼
-Export PowerPoint
+```mermaid
+flowchart LR
+    A[User Input] --> B[Course Requirements]
+    B --> C[Stage 1<br/>Generate Course Outline]
+    C --> D[Stage 2<br/>Generate Lessons<br/>Learning Objectives<br/>Quizzes]
+    D --> E[Store Course in SQLite]
+    E --> F[Display Course]
+    F --> G[Export PowerPoint]
 ```
 
 ---
